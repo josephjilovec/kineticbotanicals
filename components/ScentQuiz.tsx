@@ -29,7 +29,7 @@ export function ScentQuiz({ standalone = false }: { standalone?: boolean }) {
     if (mood === "Bright + fresh") candidates = candidates.sort((a, b) => Number(b.profile.includes("Fresh")) - Number(a.profile.includes("Fresh")));
     if (mood === "Deep + grounded") candidates = candidates.sort((a, b) => Number(b.profile.includes("Earthy")) - Number(a.profile.includes("Earthy")));
     if (mood === "Soft + reset") candidates = candidates.sort((a, b) => Number(b.profile.includes("Calming")) - Number(a.profile.includes("Calming")));
-    if (intensity === "Keep it light") candidates = candidates.sort((a, b) => Number(a.intensity === "Light") - Number(b.intensity === "Light"));
+    if (intensity === "Keep it light") candidates = candidates.sort((a, b) => Number(b.intensity === "Light") - Number(a.intensity === "Light"));
     if (intensity === "Give me something bolder") candidates = candidates.sort((a, b) => Number(b.intensity === "Bold") - Number(a.intensity === "Bold"));
     return candidates[0] ?? products[0];
   }, [workout, mood, intensity]);
