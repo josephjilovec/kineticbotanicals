@@ -34,7 +34,7 @@ export function Hero() {
             FRESH<br />BEFORE.<br /><span className="text-[#ff7a49]">RESET</span><br />AFTER.
           </motion.h1>
           <motion.p className="mt-8 max-w-xl text-base leading-7 text-white/68 md:text-lg" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.12 }}>
-            Kinetic Botanicals makes compact essential-oil roll-ons for the gym bag: lighter than heavy fragrance, easy to apply, and built around the ritual of getting into—or out of—training mode.
+            Kinetic Aromatics makes compact essential-oil roll-ons for the gym bag: lighter than heavy fragrance, easy to apply, and built around the ritual of getting into—or out of—training mode.
           </motion.p>
           <motion.div className="mt-8 flex flex-wrap gap-3" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 }}>
             <Link href="/quiz" className="button-accent">Find your pre-workout scent <MoveRight size={17} /></Link>
