@@ -3,7 +3,7 @@ import { ShopExperience } from "@/components/ShopExperience";
 
 export const metadata: Metadata = {
   title: "Shop Aromatic Roll-Ons",
-  description: "Shop Kinetic Botanicals roll-ons by scent profile: fresh, earthy, herbaceous, and calming.",
+  description: "Shop Kinetic Aromatics roll-ons by scent profile: fresh, earthy, herbaceous, and calming.",
 };
 
 export default function ShopPage() {
