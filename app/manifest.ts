@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Kinetic Botanicals",
+    name: "Kinetic Aromatics",
     short_name: "Kinetic",
     description: "Gym-bag aromatic roll-ons for active routines.",
     start_url: "/",
