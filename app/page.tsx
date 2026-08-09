@@ -66,7 +66,7 @@ export default function HomePage() {
           <div className="flex flex-col justify-center p-7 md:p-12">
             <p className="eyebrow">WHY KINETIC</p>
             <h2 className="mt-4 text-5xl font-black leading-[.9] tracking-[-.06em] md:text-7xl">Fragrance that knows where it is.</h2>
-            <p className="mt-6 max-w-xl text-base leading-7 text-black/58">Traditional fragrance often assumes the room should notice you. Kinetic Botanicals starts with a different setting: shared training spaces, close quarters, quick transitions, and a bag already full of gear.</p>
+            <p className="mt-6 max-w-xl text-base leading-7 text-black/58">Traditional fragrance often assumes the room should notice you. Kinetic Aromatics starts with a different setting: shared training spaces, close quarters, quick transitions, and a bag already full of gear.</p>
             <Link href="/about" className="button-primary mt-8 w-fit">Read the philosophy <ArrowRight size={16} /></Link>
           </div>
         </div>
