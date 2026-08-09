@@ -9,23 +9,23 @@ import { SiteHeader } from "@/components/SiteHeader";
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kineticbotanicals.com"),
+  metadataBase: new URL("https://kineticaromatics.josephjilovec.com"),
   title: {
-    default: "Kinetic Botanicals — Gym-Bag Aromatic Roll-Ons",
-    template: "%s | Kinetic Botanicals",
+    default: "Kinetic Aromatics — Gym-Bag Aromatic Roll-Ons",
+    template: "%s | Kinetic Aromatics",
   },
   description: "Compact essential-oil roll-ons made for gym bags, locker-room resets, and active routines. Fresh, earthy, herbaceous, and calming scent profiles.",
-  applicationName: "Kinetic Botanicals",
+  applicationName: "Kinetic Aromatics",
   openGraph: {
-    title: "Kinetic Botanicals",
+    title: "Kinetic Aromatics",
     description: "Fresh before. Reset after. Aromatic roll-ons built for active lives.",
     type: "website",
-    url: "https://kineticbotanicals.com",
-    siteName: "Kinetic Botanicals",
+    url: "https://kineticaromatics.josephjilovec.com",
+    siteName: "Kinetic Aromatics",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kinetic Botanicals",
+    title: "Kinetic Aromatics",
     description: "Locker-room ready. Gym-bag essential.",
   },
 };
@@ -45,7 +45,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <div>
                 <Link href="/" className="flex items-center gap-3">
                   <span className="brand-mark border-white/30" aria-hidden="true"><i /><i /><i /></span>
-                  <span><strong className="block text-lg font-black uppercase tracking-[0.08em]">Kinetic</strong><small className="text-[9px] font-bold uppercase tracking-[0.28em] text-white/45">Botanicals</small></span>
+                  <span><strong className="block text-lg font-black uppercase tracking-[0.08em]">Kinetic</strong><small className="text-[9px] font-bold uppercase tracking-[0.28em] text-white/45">Aromatics</small></span>
                 </Link>
                 <p className="mt-5 max-w-md text-sm leading-6 text-white/50">Aromatic roll-ons designed around movement, gym bags, and close-to-skin scent rituals—not room-filling fragrance.</p>
               </div>
@@ -58,7 +58,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <p className="mt-4 text-xs leading-6 text-white/45">For external aromatic use only. Patch test before use. Avoid eyes and sensitive areas. Discontinue if irritation occurs. Essential-oil products are not intended to diagnose, treat, cure, or prevent disease.</p>
               </div>
             </div>
-            <div className="border-t border-white/10 px-5 py-5 text-center text-[10px] font-bold uppercase tracking-[0.14em] text-white/35">© 2026 Kinetic Botanicals • kineticbotanicals.com</div>
+            <div className="border-t border-white/10 px-5 py-5 text-center text-[10px] font-bold uppercase tracking-[0.14em] text-white/35">© 2026 Kinetic Aromatics • kineticaromatics.josephjilovec.com</div>
           </footer>
           <CartDrawer />
         </CartProvider>
