@@ -3,7 +3,7 @@ import { ScentQuiz } from "@/components/ScentQuiz";
 
 export const metadata: Metadata = {
   title: "Scent Match",
-  description: "Take the Kinetic Botanicals 3-step scent match quiz and find a roll-on for your workout vibe.",
+  description: "Take the Kinetic Aromatics 3-step scent match quiz and find a roll-on for your workout vibe.",
 };
 
 export default function QuizPage() {
