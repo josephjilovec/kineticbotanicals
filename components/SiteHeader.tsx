@@ -19,11 +19,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/10 bg-[#f4f0e8]/88 backdrop-blur-xl">
       <div className="mx-auto flex h-[76px] max-w-[1500px] items-center gap-5 px-5 lg:px-8">
-        <Link href="/" className="flex items-center gap-3" aria-label="Kinetic Botanicals home">
+        <Link href="/" className="flex items-center gap-3" aria-label="Kinetic Aromatics home">
           <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
           <span className="leading-none">
             <strong className="block text-[15px] font-black uppercase tracking-[0.08em]">Kinetic</strong>
-            <span className="mt-1 block text-[9px] font-bold uppercase tracking-[0.28em] text-black/50">Botanicals</span>
+            <span className="mt-1 block text-[9px] font-bold uppercase tracking-[0.28em] text-black/50">Aromatics</span>
           </span>
         </Link>
 
