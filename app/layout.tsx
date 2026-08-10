@@ -41,9 +41,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <SiteHeader />
           <main>{children}</main>
           <footer className="bg-[#101411] text-white">
-<div className="jj-venture-nav" style={{margin:'0 auto 1.5rem',padding:'1rem 0',textAlign:'center',fontSize:'.78rem',letterSpacing:'.04em',opacity:.78}}><a href="https://www.josephjilovec.com/ventures" style={{color:'inherit',textDecoration:'none'}}>A Joseph Jilovec Venture</a><span aria-hidden="true" style={{margin:'0 .6rem'}}>·</span><a href="https://www.josephjilovec.com/ventures" style={{color:'inherit',textDecoration:'none',fontWeight:600}}>Explore the Venture Studio →</a></div>
-
-            <div className="mx-auto grid max-w-[1500px] gap-10 px-5 py-14 md:grid-cols-[1.2fr_.8fr_.8fr] lg:px-8">
+<div className="mx-auto grid max-w-[1500px] gap-10 px-5 py-14 md:grid-cols-[1.2fr_.8fr_.8fr] lg:px-8">
               <div>
                 <Link href="/" className="flex items-center gap-3">
                   <span className="brand-mark border-white/30" aria-hidden="true"><i /><i /><i /></span>
@@ -60,8 +58,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <p className="mt-4 text-xs leading-6 text-white/45">For external aromatic use only. Patch test before use. Avoid eyes and sensitive areas. Discontinue if irritation occurs. Essential-oil products are not intended to diagnose, treat, cure, or prevent disease.</p>
               </div>
             </div>
-            <div className="border-t border-white/10 px-5 py-5 text-center text-[10px] font-bold uppercase tracking-[0.14em] text-white/35">© 2026 Kinetic Aromatics • kineticaromatics.josephjilovec.com</div>
-          </footer>
+            <div className="border-t border-white/10 px-5 py-5 text-center text-[10px] font-bold uppercase tracking-[0.14em] text-white/35">© 2026 Kinetic Aromatics</div>
+          <div className="jj-venture-nav" style={{borderTop:'1px solid rgba(255,255,255,.10)',padding:'1rem 1.25rem 1.15rem',textAlign:'center',fontSize:'.78rem',letterSpacing:'.045em'}}><a href="https://www.josephjilovec.com/ventures" style={{color:'#E7C45A',textDecoration:'none',fontWeight:700}}>A Joseph Jilovec Venture</a><span aria-hidden="true" style={{color:'#E7C45A',margin:'0 .65rem',opacity:.7}}>•</span><a href="https://www.josephjilovec.com/ventures" style={{color:'#E7C45A',textDecoration:'none',fontWeight:800}}>Explore the Venture Studio →</a></div>
+</footer>
           <CartDrawer />
         </CartProvider>
       </body>
